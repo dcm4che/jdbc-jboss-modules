@@ -4,6 +4,13 @@
   <artifactId>jdbc-jboss-modules</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
+  <distributionManagement>
+    <repository>
+      <id>www.dcm4che.org</id>
+      <name>dcm4che Repository</name>
+      <url>scp://www.dcm4che.org:443/home/maven2</url>
+    </repository>
+  </distributionManagement>
   <properties>
     <db>mysql</db>
   </properties>
