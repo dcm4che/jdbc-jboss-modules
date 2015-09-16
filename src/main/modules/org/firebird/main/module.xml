@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module xmlns="urn:jboss:module:1.1" name="org.firebird">
     <resources>
-        <resource-root path="jaybird-2.2.5.jar"/>
+        <resource-root path="jaybird-2.2.8.jar"/>
     </resources>
 
     <dependencies>
