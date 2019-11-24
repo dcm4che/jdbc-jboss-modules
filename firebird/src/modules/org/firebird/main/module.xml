@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.1" name="org.firebird">
+    <resources>
+        <resource-root path="jaybird-jdk18-${project.version}.jar"/>
+    </resources>
+
+    <dependencies>
+        <module name="javax.api"/>
+        <module name="javax.resource.api" export="true"/>
+        <module name="javax.transaction.api"/>
+    </dependencies>
+</module>

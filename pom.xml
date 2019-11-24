@@ -3,8 +3,18 @@
   <groupId>org.dcm4che</groupId>
   <artifactId>jdbc-jboss-modules</artifactId>
   <name>jdbc jboss modules</name>
-  <version>1.0.0</version>
+  <version>2.0.0</version>
   <packaging>pom</packaging>
+  <modules>
+    <module>h2</module>
+    <module>db2</module>
+    <module>firebird</module>
+    <module>mariadb</module>
+    <module>mysql</module>
+    <module>oracle</module>
+    <module>psql</module>
+    <module>sqlserver</module>
+  </modules>
   <description>jdbc jboss modules</description>
   <url>http://dcm4che.org</url>
   <licenses>
@@ -24,7 +34,7 @@
   <developers>
     <developer>
       <name>Gunter Zeilinger</name>
-      <email>gunterze@gmail.com</email>
+      <email>gunterze@protonmail.com</email>
       <organization>dcm4che.org</organization>
       <organizationUrl>http://dcm4che.org</organizationUrl>
     </developer>
@@ -46,27 +56,24 @@
       <extension>
         <groupId>org.apache.maven.wagon</groupId>
         <artifactId>wagon-ssh</artifactId>
-        <version>2.10</version>
+        <version>3.3.2</version>
       </extension>
     </extensions>
-    <plugins>
-      <plugin>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <version>2.3</version>
-        <configuration>
-          <descriptors>
-            <descriptor>src/main/assembly/${db}.xml</descriptor>
-          </descriptors>
-        </configuration>
-        <executions>
-          <execution>
-            <phase>package</phase>
-            <goals>
-              <goal>single</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>3.2.0</version>
+          <executions>
+            <execution>
+              <phase>package</phase>
+              <goals>
+                <goal>single</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </pluginManagement>
   </build>
 </project>
