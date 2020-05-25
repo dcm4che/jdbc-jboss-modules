@@ -51,20 +51,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>jdbc-jboss-modules-oracle</artifactId>
-  <version>12.2.0.1</version>
+  <version>19.6.0.0</version>
   <packaging>pom</packaging>
-
-  <repositories>
-    <repository>
-      <id>xwiki</id>
-      <name>XWiki Externals Repository</name>
-      <url>https://maven.xwiki.org/externals/</url>
-    </repository>
-  </repositories>
 
   <dependencies>
     <dependency>
-      <groupId>com.oracle.jdbc</groupId>
+      <groupId>com.oracle.database.jdbc</groupId>
       <artifactId>ojdbc8</artifactId>
       <version>${project.version}</version>
     </dependency>
