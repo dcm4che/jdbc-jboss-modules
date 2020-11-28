@@ -51,13 +51,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>jdbc-jboss-modules-oracle</artifactId>
-  <version>19.6.0.0</version>
+  <version>19.8.0.0</version>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>com.oracle.database.jdbc</groupId>
-      <artifactId>ojdbc8</artifactId>
+      <artifactId>ojdbc10</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>

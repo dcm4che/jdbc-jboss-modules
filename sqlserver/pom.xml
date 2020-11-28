@@ -51,7 +51,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>jdbc-jboss-modules-sqlserver</artifactId>
-  <version>8.2.2.jre11</version>
+  <version>8.4.1.jre11</version>
   <packaging>pom</packaging>
 
   <dependencies>
