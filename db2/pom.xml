@@ -51,13 +51,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>jdbc-jboss-modules-db2</artifactId>
-  <version>db2jcc4</version>
+  <version>11.5.5.0</version>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>com.ibm.db2.jcc</groupId>
-      <artifactId>db2jcc</artifactId>
+      <groupId>com.ibm.db2</groupId>
+      <artifactId>jcc</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>

@@ -62,7 +62,7 @@
     <dependencySet>
       <outputDirectory>/modules/com/ibm/db2/main</outputDirectory>
       <includes>
-        <include>com.ibm.db2.jcc:db2jcc</include>
+        <include>com.ibm.db2:jcc</include>
       </includes>
       <useTransitiveDependencies>false</useTransitiveDependencies>
       <useProjectArtifact>false</useProjectArtifact>
