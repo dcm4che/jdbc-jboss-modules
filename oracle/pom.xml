@@ -51,7 +51,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>jdbc-jboss-modules-oracle</artifactId>
-  <version>21.1.0.0</version>
+  <version>21.5.0.0</version>
   <packaging>pom</packaging>
 
   <dependencies>
