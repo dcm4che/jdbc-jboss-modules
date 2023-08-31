@@ -62,7 +62,7 @@
     <dependencySet>
       <outputDirectory>/modules/com/mysql/main</outputDirectory>
       <includes>
-        <include>mysql:mysql-connector-java</include>
+        <include>com.mysql:mysql-connector-j</include>
       </includes>
       <useTransitiveDependencies>false</useTransitiveDependencies>
       <useProjectArtifact>false</useProjectArtifact>

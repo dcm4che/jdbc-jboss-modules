@@ -5,8 +5,11 @@
         <resource-root path="h2-${project.version}.jar"/>
     </resources>
     <dependencies>
-        <module name="javax.api"/>
-        <module name="javax.transaction.api"/>
-        <module name="javax.servlet.api" optional="true"/>
+        <module name="java.se" export="true"/>
+        <module name="java.xml" export="true"/>
+        <module name="java.xml.crypto" export="true"/>
+        <module name="jdk.xml.dom" export="true"/>
+        <module name="jakarta.transaction.api"/>
+        <module name="jakarta.servlet.api" optional="true"/>
     </dependencies>
 </module>
