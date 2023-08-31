@@ -62,7 +62,7 @@
     <dependencySet>
       <outputDirectory>/modules/com/oracle/main</outputDirectory>
       <includes>
-        <include>com.oracle.database.jdbc:ojdbc10</include>
+        <include>com.oracle.database.jdbc:ojdbc11</include>
       </includes>
       <useTransitiveDependencies>false</useTransitiveDependencies>
       <useProjectArtifact>false</useProjectArtifact>

@@ -62,7 +62,7 @@
     <dependencySet>
       <outputDirectory>/modules/org/firebird/main</outputDirectory>
       <includes>
-        <include>org.firebirdsql.jdbc:jaybird-jdk18</include>
+        <include>org.firebirdsql.jdbc:jaybird</include>
       </includes>
       <useTransitiveDependencies>false</useTransitiveDependencies>
       <useProjectArtifact>false</useProjectArtifact>
