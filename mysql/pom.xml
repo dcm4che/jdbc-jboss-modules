@@ -51,7 +51,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>jdbc-jboss-modules-mysql</artifactId>
-  <version>8.1.0</version>
+  <version>8.3.0</version>
   <packaging>pom</packaging>
 
   <dependencies>
